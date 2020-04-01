@@ -1,0 +1,27 @@
+{
+  "name": "monitoring-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext ts",
+    "format": "prettier --write src",
+    "build": "tsc",
+    "integrate": "jest"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.2.4",
+    "jest-runner-eslint": "^0.7.6",
+    "jest-runner-tsc": "^1.6.0",
+    "ts-jest": "^25.3.0"
+  }
+}
